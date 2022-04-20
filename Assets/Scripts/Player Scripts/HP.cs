@@ -22,7 +22,7 @@ public class HP : MonoBehaviour
         barraDeVida.CambiarVidaActual(vida);
         if (vida <= 0)
         {
-            Destroy(gameObject);
+            print("Cagaste");
         }
     }
 
