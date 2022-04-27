@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HP : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class HP : MonoBehaviour
         barraDeVida.CambiarVidaActual(vida);
         if (vida <= 0)
         {
-            print("Cagaste");
+            SceneManager.LoadScene(0);
         }
     }
 

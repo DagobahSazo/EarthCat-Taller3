@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 5293388319382394748}
   - component: {fileID: 5293388319382394745}
   - component: {fileID: 5293388319382394744}
-  - component: {fileID: 5293388319382394747}
   - component: {fileID: 5293388319382394746}
+  - component: {fileID: -807641212559954091}
   m_Layer: 0
   m_Name: BellotaObstaculo
   m_TagString: Untagged
@@ -120,27 +120,6 @@ CircleCollider2D:
   m_Offset: {x: 0.038823992, y: 0}
   serializedVersion: 2
   m_Radius: 1.0432218
---- !u!50 &5293388319382394747
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5293388319382394751}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &5293388319382394746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,3 +132,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68772cd0f62d374aa0b8693a2957440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-807641212559954091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5293388319382394751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee737922ea607114db8f5255eeab85fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 6
