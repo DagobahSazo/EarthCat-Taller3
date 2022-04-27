@@ -18,13 +18,20 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void WinGame()
+    public void ExitGame()
     {
         
     }
 
     public void ResetearJuego()
     {
-        
+        SceneManager.LoadScene("Menu");
     }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+
 }

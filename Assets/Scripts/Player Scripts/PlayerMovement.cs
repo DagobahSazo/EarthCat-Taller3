@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
 
     bool jump = false;
 
+    
+
     // Update is called once per frame
     void Update()
     {
@@ -29,14 +31,16 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsJumping", true);
         }
 
+       
     }
 
+    
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
     }
 
-
+    
 
     private void FixedUpdate()
     {

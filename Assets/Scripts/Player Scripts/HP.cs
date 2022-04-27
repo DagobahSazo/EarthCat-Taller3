@@ -23,7 +23,7 @@ public class HP : MonoBehaviour
         barraDeVida.CambiarVidaActual(vida);
         if (vida <= 0)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("GameOver");
         }
     }
 

@@ -11,6 +11,8 @@ public class SpawnerObjetos : MonoBehaviour
 
 
     public float timeSpawn = 1;
+    public float minSpawnTime = 0.05f;
+    public float maxSpawnTime = 1;
 
     public float repeatSpawnRate = 3;
 
@@ -20,7 +22,7 @@ public class SpawnerObjetos : MonoBehaviour
     public Transform yRangeUp;
     public Transform yRangeDown;
 
-
+    
 
 
     
@@ -43,5 +45,7 @@ public class SpawnerObjetos : MonoBehaviour
         spawnPosition = new Vector3(Random.Range(xRangeLeft.position.x, xRangeRight.position.x), Random.Range(yRangeDown.position.y, yRangeUp.position.y),0);
 
         GameObject obstaculo = Instantiate(obstaculos[Random.Range(0,obstaculos.Length)],spawnPosition,gameObject.transform.rotation);
+
+        
     }
 }
