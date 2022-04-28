@@ -34,4 +34,15 @@ public class ScoreManager : MonoBehaviour
             maxScoreText.text = valorScore.ToString("0.00");
         }
     }
+
+
+    public void AddScore( float scoreObjectValue )
+    {
+
+        valorScore += scoreObjectValue;
+
+    }
+
+
+
 }
