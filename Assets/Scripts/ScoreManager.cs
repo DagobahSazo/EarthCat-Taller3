@@ -7,18 +7,18 @@ public class ScoreManager : MonoBehaviour
 {
 
     public Text scoreText;
-
-    public float valorScore;
-
     public Text maxScoreText;
 
+    public float valorScore;
     public float maxScore;
+
+
 
 
     private void Start()
     {
         maxScore = PlayerPrefs.GetFloat("MaxPuntuacion");
-        maxScoreText.text = maxScore.ToString("0.00");
+        maxScoreText.text =  maxScore.ToString("0.0");
     }
 
     void Update()
@@ -31,7 +31,7 @@ public class ScoreManager : MonoBehaviour
         {
             PlayerPrefs.SetFloat("MaxPuntuacion", valorScore);
 
-            maxScoreText.text = valorScore.ToString("0.00");
+            maxScoreText.text = valorScore.ToString("0.0");
         }
     }
 
