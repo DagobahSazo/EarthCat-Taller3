@@ -118,8 +118,8 @@ GameObject:
   - component: {fileID: 7383923228849750724}
   - component: {fileID: 7383923228849750725}
   - component: {fileID: 7383923228849750729}
-  - component: {fileID: 1991269782793343482}
   - component: {fileID: -2259824991945155447}
+  - component: {fileID: -9134915963096746613}
   m_Layer: 0
   m_Name: Orange
   m_TagString: Fruta
@@ -253,19 +253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97f406809fa17db458c6467fe5b9361b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1991269782793343482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7383923228849750726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee737922ea607114db8f5255eeab85fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 4
 --- !u!114 &-2259824991945155447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,3 +266,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreValue: 5
+--- !u!114 &-9134915963096746613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383923228849750726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8156a2e6a5a6ed4f86935b69109530a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4

@@ -13,14 +13,15 @@ public class GameManager : MonoBehaviour
         manager = this;
     }
 
-    public void GameOver()
-    {
-
-    }
-
     public void ExitGame()
     {
-        
+        Debug.Log("Guaracha");
+        Application.Quit();
+    }
+
+    public void GoTuto()
+    {
+        SceneManager.LoadScene(1);
     }
 
     public void ResetearJuego()
@@ -30,7 +31,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
 
