@@ -18,5 +18,9 @@ public class CaidaObjeto : MonoBehaviour
     void Update()
     {
         transform.position += -transform.up * Time.deltaTime * speed;
+
+
     }
+
+    
 }
